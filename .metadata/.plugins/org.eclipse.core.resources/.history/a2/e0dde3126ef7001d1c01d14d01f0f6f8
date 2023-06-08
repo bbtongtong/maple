@@ -1,0 +1,14 @@
+package chapter1.sec01;
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee e = new Employee();
+		e.setWage(10000);
+		double anuSalary=e.getWage();
+		System.out.println(anuSalary);
+
+	}
+
+}

@@ -1,0 +1,6 @@
+package kr.co.ddit.project1;
+
+public class ghghgh {
+	
+
+}

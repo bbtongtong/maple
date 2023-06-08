@@ -1,0 +1,22 @@
+package chapter1.sec01;
+
+public class Employee {
+	String empno;
+	String empname;
+	String deptname;
+	String rank;
+	int age;
+	String gender;
+	int anuSalary;
+	String telno;
+	String address;
+	
+	public int getWage() {
+		return anuSalary;
+	}
+	
+	public void setWage(int anuSalary) {
+		this.anuSalary=anuSalary;
+	}
+
+}

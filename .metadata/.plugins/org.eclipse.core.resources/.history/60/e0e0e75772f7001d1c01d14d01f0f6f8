@@ -1,0 +1,25 @@
+package chapter1.sec01;
+
+import java.util.Scanner;
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee e = new Employee();
+		Scanner sc=new Scanner(System.in);
+		System.out.print("연봉을 입력하시오 : ");
+		e.setWage("a01", "홍길동", "기획부", "과장", sc.nextDouble());
+//		double anuSalary=e.getWage();
+				
+//		Employee e1= new Employee(String empno, String empname,String deptname,String rank);
+		Employee e1 = new Employee();
+		System.out.println("연봉을 입력하시오 : ");
+		System.out.print("연봉협상 %를 입력하세요 : ");
+		
+		e1.salaryDeal("a02", "이순신", "홍보부", "부장", sc.nextDouble(), sc.nextDouble());
+//		System.out.print("연봉..");
+
+	}
+
+}
